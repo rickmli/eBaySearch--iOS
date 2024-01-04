@@ -9,7 +9,12 @@ import Foundation
 
 struct Constants {
     struct Urls {
-        static let backendUrl = "https://ebaysearch-404316.df.r.appspot.com"
+        // hosting on google app engine
+        // static let backendUrl = "https://ebaysearch-404316.df.r.appspot.com"
+        
+        // hosting locally
+        static let backendUrl = "http://localhost:8080"
+        
         static let fetchItems = "\(backendUrl)/eBay/advanceSearch?"
         static let fetchItemInfos = "\(backendUrl)/eBay/getSingleItem?"
         static let fetchPhotos = "\(backendUrl)/google/customSearch?"
