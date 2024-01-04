@@ -8,17 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		1DDF2B592B1D1BD4001E4922 /* ebaySearch__IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B582B1D1BD4001E4922 /* ebaySearch__IOSApp.swift */; };
-		1DDF2B5B2B1D1BD4001E4922 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B5A2B1D1BD4001E4922 /* ContentView.swift */; };
 		1DDF2B5D2B1D1BD5001E4922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDF2B5C2B1D1BD5001E4922 /* Assets.xcassets */; };
 		1DDF2B602B1D1BD5001E4922 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDF2B5F2B1D1BD5001E4922 /* Preview Assets.xcassets */; };
+		1DDF2B682B1D1C82001E4922 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B672B1D1C82001E4922 /* SearchView.swift */; };
+		1DDF2B6D2B1D1D2B001E4922 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B6C2B1D1D2B001E4922 /* ResultView.swift */; };
+		1DDF2B6F2B1D1DE2001E4922 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B6E2B1D1DE2001E4922 /* ProductView.swift */; };
+		1DDF2B742B1D1E1B001E4922 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B732B1D1E1B001E4922 /* ItemView.swift */; };
+		1DDF2B772B1D1E3A001E4922 /* ProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B762B1D1E3A001E4922 /* ProductInfoView.swift */; };
+		1DDF2B792B1D1E4B001E4922 /* ProductShippingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B782B1D1E4B001E4922 /* ProductShippingView.swift */; };
+		1DDF2B7B2B1D1E5C001E4922 /* ProductPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B7A2B1D1E5C001E4922 /* ProductPhotosView.swift */; };
+		1DDF2B7D2B1D1E69001E4922 /* ProductSimilarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B7C2B1D1E69001E4922 /* ProductSimilarView.swift */; };
+		1DDF2B802B1D1E8B001E4922 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B7F2B1D1E8B001E4922 /* Constants.swift */; };
+		1DDF2B822B1D1EF7001E4922 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B812B1D1EF7001E4922 /* FavoriteView.swift */; };
+		1DDF2B842B1D1F80001E4922 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B832B1D1F80001E4922 /* FormView.swift */; };
+		1DDF2B892B1D233C001E4922 /* CurrentPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B882B1D233C001E4922 /* CurrentPosition.swift */; };
+		1DDF2B8B2B1D2945001E4922 /* FormInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B8A2B1D2945001E4922 /* FormInputs.swift */; };
+		1DDF2B8D2B1D29F7001E4922 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B8C2B1D29F7001E4922 /* Categories.swift */; };
+		1DDF2B8F2B1E8723001E4922 /* CheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B8E2B1E8723001E4922 /* CheckboxToggleStyle.swift */; };
+		1DDF2B942B1E8ACA001E4922 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B902B1E8AC9001E4922 /* Item.swift */; };
+		1DDF2B952B1E8ACA001E4922 /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B912B1E8AC9001E4922 /* ItemDetails.swift */; };
+		1DDF2B962B1E8ACA001E4922 /* SimilarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B922B1E8ACA001E4922 /* SimilarItem.swift */; };
+		1DDF2B972B1E8ACA001E4922 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B932B1E8ACA001E4922 /* Photo.swift */; };
+		1DDF2B992B1E8BFC001E4922 /* getCurrentZipcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B982B1E8BFC001E4922 /* getCurrentZipcode.swift */; };
+		1DDF2B9D2B1E8F75001E4922 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B9C2B1E8F75001E4922 /* Items.swift */; };
+		1DDF2B9F2B1E9E83001E4922 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2B9E2B1E9E83001E4922 /* RemoteImage.swift */; };
+		1DDF2BA22B1EA228001E4922 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2BA02B1EA228001E4922 /* ImageSliderView.swift */; };
+		1DDF2BA32B1EA228001E4922 /* DescriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2BA12B1EA228001E4922 /* DescriptionsView.swift */; };
+		1DDF2BAC2B1F0991001E4922 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDF2BAB2B1F0991001E4922 /* Launch Screen.storyboard */; };
+		1DDF2BAE2B1FD736001E4922 /* AutoCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2BAD2B1FD736001E4922 /* AutoCompletionView.swift */; };
+		1DDF2BB02B20508C001E4922 /* ItemDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2BAF2B20508C001E4922 /* ItemDictionary.swift */; };
+		1DDF2BB22B21515B001E4922 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF2BB12B21515B001E4922 /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DDF2B552B1D1BD4001E4922 /* ebaySearch--IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ebaySearch--IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDF2B582B1D1BD4001E4922 /* ebaySearch__IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ebaySearch__IOSApp.swift; sourceTree = "<group>"; };
-		1DDF2B5A2B1D1BD4001E4922 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DDF2B5C2B1D1BD5001E4922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DDF2B5F2B1D1BD5001E4922 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DDF2B672B1D1C82001E4922 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		1DDF2B6C2B1D1D2B001E4922 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		1DDF2B6E2B1D1DE2001E4922 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		1DDF2B732B1D1E1B001E4922 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		1DDF2B762B1D1E3A001E4922 /* ProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoView.swift; sourceTree = "<group>"; };
+		1DDF2B782B1D1E4B001E4922 /* ProductShippingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductShippingView.swift; sourceTree = "<group>"; };
+		1DDF2B7A2B1D1E5C001E4922 /* ProductPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPhotosView.swift; sourceTree = "<group>"; };
+		1DDF2B7C2B1D1E69001E4922 /* ProductSimilarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSimilarView.swift; sourceTree = "<group>"; };
+		1DDF2B7F2B1D1E8B001E4922 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1DDF2B812B1D1EF7001E4922 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		1DDF2B832B1D1F80001E4922 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		1DDF2B882B1D233C001E4922 /* CurrentPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPosition.swift; sourceTree = "<group>"; };
+		1DDF2B8A2B1D2945001E4922 /* FormInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormInputs.swift; sourceTree = "<group>"; };
+		1DDF2B8C2B1D29F7001E4922 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		1DDF2B8E2B1E8723001E4922 /* CheckboxToggleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxToggleStyle.swift; sourceTree = "<group>"; };
+		1DDF2B902B1E8AC9001E4922 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1DDF2B912B1E8AC9001E4922 /* ItemDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
+		1DDF2B922B1E8ACA001E4922 /* SimilarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimilarItem.swift; sourceTree = "<group>"; };
+		1DDF2B932B1E8ACA001E4922 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		1DDF2B982B1E8BFC001E4922 /* getCurrentZipcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getCurrentZipcode.swift; sourceTree = "<group>"; };
+		1DDF2B9C2B1E8F75001E4922 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		1DDF2B9E2B1E9E83001E4922 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		1DDF2BA02B1EA228001E4922 /* ImageSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
+		1DDF2BA12B1EA228001E4922 /* DescriptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionsView.swift; sourceTree = "<group>"; };
+		1DDF2BAB2B1F0991001E4922 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1DDF2BAD2B1FD736001E4922 /* AutoCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompletionView.swift; sourceTree = "<group>"; };
+		1DDF2BAF2B20508C001E4922 /* ItemDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDictionary.swift; sourceTree = "<group>"; };
+		1DDF2BB12B21515B001E4922 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +89,7 @@
 		1DDF2B4C2B1D1BD4001E4922 = {
 			isa = PBXGroup;
 			children = (
+				1DDF2BAB2B1F0991001E4922 /* Launch Screen.storyboard */,
 				1DDF2B572B1D1BD4001E4922 /* ebaySearch--IOS */,
 				1DDF2B562B1D1BD4001E4922 /* Products */,
 			);
@@ -51,9 +106,14 @@
 		1DDF2B572B1D1BD4001E4922 /* ebaySearch--IOS */ = {
 			isa = PBXGroup;
 			children = (
+				1DDF2B7E2B1D1E7F001E4922 /* Utils */,
 				1DDF2B582B1D1BD4001E4922 /* ebaySearch__IOSApp.swift */,
-				1DDF2B5A2B1D1BD4001E4922 /* ContentView.swift */,
+				1DDF2B852B1D2122001E4922 /* Services */,
+				1DDF2B692B1D1CB0001E4922 /* Models */,
+				1DDF2B662B1D1C68001E4922 /* Views */,
+				1DDF2B6A2B1D1CB9001E4922 /* ComponentViews */,
 				1DDF2B5C2B1D1BD5001E4922 /* Assets.xcassets */,
+				1DDF2B6B2B1D1CC9001E4922 /* Styles */,
 				1DDF2B5E2B1D1BD5001E4922 /* Preview Content */,
 			);
 			path = "ebaySearch--IOS";
@@ -65,6 +125,83 @@
 				1DDF2B5F2B1D1BD5001E4922 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DDF2B662B1D1C68001E4922 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DDF2B672B1D1C82001E4922 /* SearchView.swift */,
+				1DDF2B832B1D1F80001E4922 /* FormView.swift */,
+				1DDF2B6C2B1D1D2B001E4922 /* ResultView.swift */,
+				1DDF2B732B1D1E1B001E4922 /* ItemView.swift */,
+				1DDF2B812B1D1EF7001E4922 /* FavoriteView.swift */,
+				1DDF2B752B1D1E22001E4922 /* ProductView */,
+				1DDF2BAD2B1FD736001E4922 /* AutoCompletionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DDF2B692B1D1CB0001E4922 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DDF2B902B1E8AC9001E4922 /* Item.swift */,
+				1DDF2B912B1E8AC9001E4922 /* ItemDetails.swift */,
+				1DDF2B932B1E8ACA001E4922 /* Photo.swift */,
+				1DDF2B922B1E8ACA001E4922 /* SimilarItem.swift */,
+				1DDF2B882B1D233C001E4922 /* CurrentPosition.swift */,
+				1DDF2B8A2B1D2945001E4922 /* FormInputs.swift */,
+				1DDF2B8C2B1D29F7001E4922 /* Categories.swift */,
+				1DDF2B9C2B1E8F75001E4922 /* Items.swift */,
+				1DDF2BAF2B20508C001E4922 /* ItemDictionary.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DDF2B6A2B1D1CB9001E4922 /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				1DDF2BA12B1EA228001E4922 /* DescriptionsView.swift */,
+				1DDF2BA02B1EA228001E4922 /* ImageSliderView.swift */,
+				1DDF2B9E2B1E9E83001E4922 /* RemoteImage.swift */,
+				1DDF2BB12B21515B001E4922 /* ToastView.swift */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
+		1DDF2B6B2B1D1CC9001E4922 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				1DDF2B8E2B1E8723001E4922 /* CheckboxToggleStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		1DDF2B752B1D1E22001E4922 /* ProductView */ = {
+			isa = PBXGroup;
+			children = (
+				1DDF2B6E2B1D1DE2001E4922 /* ProductView.swift */,
+				1DDF2B762B1D1E3A001E4922 /* ProductInfoView.swift */,
+				1DDF2B782B1D1E4B001E4922 /* ProductShippingView.swift */,
+				1DDF2B7A2B1D1E5C001E4922 /* ProductPhotosView.swift */,
+				1DDF2B7C2B1D1E69001E4922 /* ProductSimilarView.swift */,
+			);
+			path = ProductView;
+			sourceTree = "<group>";
+		};
+		1DDF2B7E2B1D1E7F001E4922 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1DDF2B7F2B1D1E8B001E4922 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1DDF2B852B1D2122001E4922 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1DDF2B982B1E8BFC001E4922 /* getCurrentZipcode.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDF2BAC2B1F0991001E4922 /* Launch Screen.storyboard in Resources */,
 				1DDF2B602B1D1BD5001E4922 /* Preview Assets.xcassets in Resources */,
 				1DDF2B5D2B1D1BD5001E4922 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +275,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DDF2B5B2B1D1BD4001E4922 /* ContentView.swift in Sources */,
+				1DDF2B842B1D1F80001E4922 /* FormView.swift in Sources */,
+				1DDF2B772B1D1E3A001E4922 /* ProductInfoView.swift in Sources */,
+				1DDF2B8B2B1D2945001E4922 /* FormInputs.swift in Sources */,
+				1DDF2B9F2B1E9E83001E4922 /* RemoteImage.swift in Sources */,
+				1DDF2B802B1D1E8B001E4922 /* Constants.swift in Sources */,
+				1DDF2B952B1E8ACA001E4922 /* ItemDetails.swift in Sources */,
+				1DDF2B6F2B1D1DE2001E4922 /* ProductView.swift in Sources */,
+				1DDF2B992B1E8BFC001E4922 /* getCurrentZipcode.swift in Sources */,
+				1DDF2BAE2B1FD736001E4922 /* AutoCompletionView.swift in Sources */,
+				1DDF2B792B1D1E4B001E4922 /* ProductShippingView.swift in Sources */,
+				1DDF2BA32B1EA228001E4922 /* DescriptionsView.swift in Sources */,
+				1DDF2BA22B1EA228001E4922 /* ImageSliderView.swift in Sources */,
+				1DDF2B822B1D1EF7001E4922 /* FavoriteView.swift in Sources */,
+				1DDF2B742B1D1E1B001E4922 /* ItemView.swift in Sources */,
+				1DDF2B7D2B1D1E69001E4922 /* ProductSimilarView.swift in Sources */,
+				1DDF2B892B1D233C001E4922 /* CurrentPosition.swift in Sources */,
+				1DDF2B8D2B1D29F7001E4922 /* Categories.swift in Sources */,
+				1DDF2B682B1D1C82001E4922 /* SearchView.swift in Sources */,
+				1DDF2B962B1E8ACA001E4922 /* SimilarItem.swift in Sources */,
+				1DDF2B9D2B1E8F75001E4922 /* Items.swift in Sources */,
 				1DDF2B592B1D1BD4001E4922 /* ebaySearch__IOSApp.swift in Sources */,
+				1DDF2BB22B21515B001E4922 /* ToastView.swift in Sources */,
+				1DDF2B942B1E8ACA001E4922 /* Item.swift in Sources */,
+				1DDF2B7B2B1D1E5C001E4922 /* ProductPhotosView.swift in Sources */,
+				1DDF2BB02B20508C001E4922 /* ItemDictionary.swift in Sources */,
+				1DDF2B972B1E8ACA001E4922 /* Photo.swift in Sources */,
+				1DDF2B8F2B1E8723001E4922 /* CheckboxToggleStyle.swift in Sources */,
+				1DDF2B6D2B1D1D2B001E4922 /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +439,10 @@
 				DEVELOPMENT_TEAM = V92VTCQQ57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ebaySearch--IOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,9 +469,10 @@
 				DEVELOPMENT_TEAM = V92VTCQQ57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ebaySearch--IOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

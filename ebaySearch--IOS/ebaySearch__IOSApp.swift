@@ -11,7 +11,7 @@ import SwiftUI
 struct ebaySearch__IOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchView()
         }
     }
 }
